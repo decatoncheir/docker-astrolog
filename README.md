@@ -1,4 +1,4 @@
-#Docker Image of Astrolog
+# Docker Image of Astrolog
 
 This is a containerize version of Astrolog
 
@@ -9,8 +9,8 @@ This is a containerize version of Astrolog
 	- Optional world map bitmap with twice the resolution that can replace the default "earth.bmp"
 	- The Astro, Enigma, Hamburg, Astronomicon, and Hank's Nakshatra TrueType fonts that can be displayed within Astrolog.
 
-##Usage
+## Usage
 	docker run --rm -it -v $[PATH_TO_CHART_FILE]:/chart.as astrolog -i /chart.as
 
-##Reference
+## Reference
 	- Official Astrolog homepage https://www.astrolog.org/
