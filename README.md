@@ -10,7 +10,7 @@ This is a containerize version of Astrolog
 	- The Astro, Enigma, Hamburg, Astronomicon, and Hank's Nakshatra TrueType fonts that can be displayed within Astrolog.
 
 ## Usage
-	docker run --rm -it -v $[PATH_TO_CHART_FILE]:/chart.as astrolog -i /chart.as
+	docker run -it --rm -v $[PATH_TO_CHART_FILE]:/chart.as ghcr.io/decatoncheir/docker-astrolog:latest -i chart.as
 
 ## Reference
 	- Official Astrolog homepage https://www.astrolog.org/
